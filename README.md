@@ -1,0 +1,9 @@
+Have you ever played the famous Minesweeper game on Windows? This project focuses on recreating that classic game by applying the core concepts of Object-Oriented Programming (OOP). Minesweeper is a grid-based puzzle game in which the player uncovers cells while trying to avoid hidden mines. The objective is to clear the entire board without triggering any mine, using numerical hints provided in the cells to determine the locations of nearby mines.
+
+In this project, the game is designed using OOP principles such as classes, objects, encapsulation, inheritance, and polymorphism. Each major component of the game is modeled as a separate class to ensure modularity and organization. For example, a Cell class can represent individual grid units, storing information such as whether it contains a mine, whether it has been revealed, and the number of adjacent mines. A Board class manages the overall grid, including mine placement and game state, while a Game or Controller class handles user interaction and game flow.
+
+Encapsulation is used to protect data and ensure that each class manages its own responsibilities, while inheritance and polymorphism can be applied to extend functionality or customize behavior if needed. This structured approach makes the code easier to understand, debug, and maintain. It also allows for future enhancements, such as adding different difficulty levels, graphical interfaces, or additional features.
+
+The game logic includes handling user inputs, revealing cells, recursively uncovering empty areas, and checking win or loss conditions. If a player clicks on a mine, the game ends, while successfully revealing all safe cells results in a win.
+
+Overall, this project demonstrates how Object-Oriented Programming can be effectively used to design and implement an interactive and engaging game like Minesweeper while promoting clean, reusable, and scalable code.
